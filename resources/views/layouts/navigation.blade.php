@@ -29,7 +29,7 @@
 
                 <div class="hidden sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('rekaps.index')" :active="request()->routeIs('rekaps.*')">
-                        {{ __('History') }}
+                        {{ __('Riwayat') }}
                     </x-nav-link>
                 </div>
             @endrole
@@ -149,7 +149,7 @@
                 </x-responsive-nav-link>
 
                 <x-responsive-nav-link :href="route('rekaps.index')" :active="request()->routeIs('rekaps.*')">
-                    {{ __('History') }}
+                    {{ __('Riwayat') }}
                 </x-responsive-nav-link>
             @endrole
 

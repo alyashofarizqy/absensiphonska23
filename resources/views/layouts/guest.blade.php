@@ -46,7 +46,7 @@
     <!-- Copy Right -->
     <footer class="absolute bottom-0 w-full text-center text-zinc-100 p-4">
         <p class="text-sm">
-            &copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. All rights reserved.
+            &copy; {{ date('Y') }} {{ config('app.name', 'Phonska 2/3') }}
         </p>
     </footer>
 

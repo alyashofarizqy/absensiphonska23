@@ -13,9 +13,7 @@
         <div class="grid grid-cols-1 gap-4 px-10 lg:grid-cols-2 lg:px-0">
             <div class="flex flex-col items-center justify-center p-10 rounded-xl bg-black/70 text-secondary-200">
                 <h3 class="mb-2 text-2xl font-bold">Absensi TKNO</h3>
-                <p class="mb-4 text-center text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Architecto
-                    delectus aut distinctio quaerat atque? Similique animi voluptatibus perferendis sit alias!</p>
+                <p class="mb-4 text-center text-zinc-400">Login bagi pegawai TKNO yang memiliki akun</p>
                 <div class="flex items-center justify-center">
                     <a href="{{ route('login') }}">
                         <x-button variant="primary">
@@ -27,9 +25,7 @@
 
             <div class="flex flex-col items-center justify-center p-10 rounded-xl bg-black/70 text-secondary-200">
                 <h3 class="mb-2 text-2xl font-bold">Absensi Rekanan</h3>
-                <p class="mb-4 text-center text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Architecto
-                    delectus aut distinctio quaerat atque? Similique animi voluptatibus perferendis sit alias!</p>
+                <p class="mb-4 text-center text-zinc-400">Akses absensi bagi pegawai rekanan</p>
                 <div class="flex items-center justify-center">
                     <a href="{{ route('rekanans.index') }}">
                         <x-button variant="primary">
