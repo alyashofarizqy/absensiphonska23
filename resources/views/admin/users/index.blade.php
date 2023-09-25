@@ -101,7 +101,7 @@
                                                 {{ $user->email }}
                                             </td>
 
-                                            <td class="px-4 py-3 min-w-[100px]">
+                                            <td class="px-4 py-3 min-w-[150px]">
                                                 @if ($user->pt)
                                                     <span
                                                         class="px-2 py-0.5 bg-phonska-800 text-white rounded-full text-xs">

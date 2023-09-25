@@ -57,7 +57,11 @@
                     <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
                         <div>
                             <x-input-label for="plant" :value="__('Plant')" class="mb-2" />
-                            <x-text-input type="text" name="plant" placeholder="Plant" class="w-full" />
+                            {{-- <x-text-input type="text" name="plant" placeholder="Plant" class="w-full" /> --}}
+                            <x-select-menu name="plant" class="w-full">
+                                <option>Phonska II</option>
+                                <option>Phonska III</option>
+                            </x-select-menu>
                             <x-input-error class="mt-2" :messages="$errors->get('plant')" />
                         </div>
 
